@@ -1,0 +1,13 @@
+https://jenkins.io/doc/book/
+https://jenkins.io/doc/book/pipeline/
+https://github.com/jenkinsci/pipeline-examples/tree/master/jenkinsfile-examples
+https://wiki.jenkins-ci.org/display/JENKINS/2.0+Pipeline+as+Code
+
+
+
+node {
+    echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
+def username = 'Jenkins'
+echo 'Hello Mr. ${username}'
+echo "I said, Hello Mr. ${username}"
+}
